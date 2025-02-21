@@ -1,88 +1,165 @@
-# Doker Using Commands
+# Flutter Related Using Commands
 
 <br/>
 <br/>
 <br/>
+
+## 👇 Flutter CLI commands Link
+
+- [Flutter – Important CLI Commands Website Link](https://www.geeksforgeeks.org/flutter-important-cli-commands/)
+
 <br/>
 <br/>
 <br/>
 
-## Docker Install
-
-- 👇 Windows Docker Download Link
-- [Docker Download Website Link](https://www.docker.com/products/docker-desktop/)
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-
-- 👇 Yah command se check kar sakte hain docker install hai kya Nahin Aur Docker Ka Version
+### 1. 👇 Create an App:
 
 ```sh
-docker -v
+flutter create APP_NAME
 ```
 
-<br/>
-
-- 👇 Yah command se docker ka service start kar sakte hain
+### 2. 👇 Analyze the Dart Code:
 
 ```sh
-systemctl start docker.service
+flutter analyze -d <DEVICE_ID>
 ```
 
-<br/>
-
-- 👇 Yah command se docker ka service status check kar sakte hain
+### 3. 👇 Test Flutter App:
 
 ```sh
-systemctl status docker.service
+Syntax: flutter test
 ```
 
-<br/>
-  
-- 👇 Pre Defined
+### 4. 👇 Run a Dart file:
 
 ```sh
-DOCKER IMAGES
-
-docker pull nginx
-
-docker run -p 8080:80
+ flutter run
 ```
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-- 👇 Yah command se doctor Mein local machine Mein login 👤🔐🔑 kar sakte hain
+### 5. 👇 Download Dependencies/Packages:
 
 ```sh
-docker login
+flutter pub get
 ```
 
-<br/>
-
-- 👇 Yah command se bhi doctor ka All images 🖼️ dekh h 👀 sakte hain
+### 6.👇 Update Flutter packages:
 
 ```sh
-docker images
+flutter pub update
 ```
 
-<br/>
-
-- 👇 Yah donon command se docker image 🖼️ ko Create and Docker Hub Mein push and upload 📤 kar sakte hain
+### 7. 👇 Get Help:
 
 ```sh
-docker build -t mdsomad/mywebapp-demo:01 .
-docker push mdsomad/mywebapp-demo:tagname
+flutter --help --verbose
 ```
+
+### 8. 👇 Check Project Health:
+
+```sh
+flutter doctor
+```
+
+### 9. 👇 Check Version:
+
+```sh
+flutter version
+```
+
+### 10. 👇 Check Channels:
+
+```sh
+flutter build <DIRECTORY>
+```
+
+### 11. 👇 Run a Dart file:
+
+```sh
+flutter devices
+```
+
+### 12. 👇 List Connected Devices:
+
+```sh
+flutter devices
+```
+
+### 13. 👇 Upgrade Flutter Version:
+
+```sh
+flutter upgrade
+```
+
+### 14. 👇 Get necessary Packages for Project:
+
+```sh
+flutter assemble -o
+```
+
+### 15. 👇 Add Pre-existing Flutter App:
+
+```sh
+flutter attach -d <DEVICE_ID>
+```
+
+### 16. 👇 Work with Stack Track file:
+
+```sh
+flutter symbolize --input=<STACK_TRACK_FILE>
+```
+
+### 17. 👇 Configure Functionalities:
+
+```sh
+flutter config --build-dir=<DIRECTORY>
+```
+
+### 18. 👇 Downgrade Flutter/Dart SDKs:
+
+```sh
+flutter downgrade
+```
+
+### 19. 👇 Work with Connected Device Hardware:
+
+```sh
+flutter drive
+```
+
+### 20. 👇 List available Emulators:
+
+```sh
+flutter emulators
+```
+
+### 21.👇 Format Dart file:
+
+```sh
+flutter format <DART_FILE | DIRECTORY>
+```
+
+### 22. 👇 Get Dependencies locally:
+
+```sh
+flutter gen-l10n <DIRECTORY>
+```
+
+### 23. 👇 Install Flutter App on a Device:
+
+```sh
+flutter install -d <DEVICE_ID>
+```
+
+### 24. 👇 View Terminal logs:
+
+```sh
+flutter logs
+```
+
+### 25.👇 List Project Assets:
+
+```sh
+flutter precache <ARGUMENTS>
+```
+
 
