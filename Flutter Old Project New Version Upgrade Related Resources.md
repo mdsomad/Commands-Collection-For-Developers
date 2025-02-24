@@ -3,14 +3,21 @@
 <br/>
 <br/>
 
-## 👇 Flutter CLI commands Link
+## 👇 How to Migrate or upgrade your old flutter project to latest
 
 - [How to migrate or upgrade your old flutter project to latest version Video Link](https://youtu.be/Qv2zsEZtkEs?si=sFr6AfoSukx6e4U6)
 
 <br/>
 <br/>
-<br/>
 
+# 👇 Java version Support Gradle Compatibility Matrix
+
+- [Your Gradle is Incompatible with Java Version Error in Flutter - Solution Video Link 🔗](https://www.youtube.com/watch?v=crLWbmce6Co)
+- [Java version Compatibility Support for running Gradle Documentation Link 🔗](https://docs.gradle.org/current/userguide/compatibility.html)
+
+<br/>
+<br/>
+<br/>
 ### 1. 👇 Platform related Android and iOS and other delete
 
 ### 2. 👇 Run This Command
